@@ -1,36 +1,31 @@
 body {
-  background:
-	linear-gradient(
-		cyan,
-		transparent
-	),
-	linear-gradient(
-		-45deg,
-		magenta,
-		transparent
-	),
-	linear-gradient(
-		45deg,
-		yellow,
-		transparent
-	);
-background-blend-mode: multiply;
+  background: linear-gradient(cyan, transparent),
+    linear-gradient(-45deg, magenta, transparent),
+    linear-gradient(45deg, yellow, transparent);
+  background-blend-mode: multiply;
 }
 
 .card {
-    padding: 1rem;
-    margin: 1rem;
-    background: white;
-    max-width: 460px;
-    margin: 2rem auto;
-    width: 90%;
+  padding: 1rem;
+  margin: 1rem;
+  background: white;
+  max-width: 460px;
+  margin: 2rem auto;
+  width: 90%;
 }
 
-html,body {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica;
-    line-height: 1;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  line-height: 1;
 }
 
-html,body,* {margin: 0;padding: 0;box-sizing: border-box;}
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
